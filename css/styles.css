@@ -16,15 +16,18 @@ border-bottom:2px solid white;
   }
   .navbar-brand{
     color:white !Important;
+    font-style:bold;
   }
   .jumbotron{
 
   }
-
+.display-4{
+  font-size:3em;
+}
   .jumbotron .container-fluid{
-    margin:0 20%;
+    margin:0 18%;
     width:60%;
-    margin-top:180px;
+    margin-top:10%;
 
   }
   #header{
@@ -76,7 +79,7 @@ h2{
   color:white;
 }
 .card-body{
-  height:200px;
+  height:350px;
   text-align:justify;
 }
 
@@ -89,14 +92,24 @@ h2{
   border:3px solid navy;
   border-radius:20px;
 }
+.fas {
+  font-size:35px;
+
+  margin:10px auto;
+  display:block;
+}
 form .btn{
   background:navy;
 }
   footer{
     background:#000653;
-    height:50px;
+    height:80px;
     color:white;
     margin-top:150px;
+  }
+  .disclaimer{
+    text-align:center;
+    font-size:12px;
   }
   .navbar-toggler{
     background:white;
